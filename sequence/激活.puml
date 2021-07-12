@@ -1,0 +1,18 @@
+@startuml
+
+
+A ->> B: 赶紧处理你自己的事情
+activate B
+B -> B: 好的知道了
+
+B --// A: 我处理结束了
+deactivate B
+
+deactivate B
+deactivate B
+A ->> B: 我又有一件事
+B -->> A: 你说
+
+
+
+@enduml
